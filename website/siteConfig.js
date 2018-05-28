@@ -97,7 +97,7 @@ const siteConfig = {
   scripts: ["/js/toggleSyntaxButton.js", "/js/pjax-api.min.js"],
   headerIcon: "img/logos/bucklescript.svg",
   // footerIcon: "img/logo.svg",
-  favicon: "img/logos/bucklescript.svg",
+  favicon: "img/logos/bucklescript.png",
   /* colors for website */
   colors: {
     primaryColor: "#ab5ea3",
