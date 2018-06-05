@@ -46,10 +46,6 @@ BuckleScript uses the same algorithm as native OCaml, but the output is differen
 
 Not supported yet.
 
-## Sys.argv, Sys.max_array_length, Sys.max_string_length
-
-Command line arguments are always empty. This might be fixed in the future. `Sys.max_array_length` and `Sys.max_string_length` will be the same as `max_int`, but it might be respected.
-
 ## Unsupported IO Primitives
 
 Because of the JS environment limitation, `Pervasives.stdin` is not supported but both `Pervasives.stdout` and `Pervasives.stderr` are.
